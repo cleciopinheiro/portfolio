@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { BiLogoGithub } from "react-icons/bi";
+import { BiLogoLinkedinSquare } from "react-icons/bi";
+import { Link } from "react-router-dom";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -114,12 +118,23 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Enviando..." : "Enviar"}
-          </button>
+          <div className="sendbuttons">
+            <button
+              type='submit'
+              className='buttonsend'
+            >
+              {loading ? "Enviando..." : "Enviar"}
+            </button>
+
+            <div className="socialmedia">
+              <Link to="https://github.com/cleciopinheiro">
+                <BiLogoGithub/>
+              </Link>
+              <Link to="https://www.linkedin.com/in/cleciopinheirodev/">
+                <BiLogoLinkedinSquare/>
+              </Link>
+            </div>
+          </div>
         </form>
       </motion.div>
 
