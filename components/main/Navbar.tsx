@@ -7,7 +7,7 @@ import { FaBehance } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-20 md:px-10 sm:px-3">
+    <div className="w-full sm:w-screen h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-20 md:px-10 sm:px-3">
       <div className="w-full h-full flex items-center justify-between m-auto">
         <a
           href="#about-me"
