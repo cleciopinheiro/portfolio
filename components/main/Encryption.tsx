@@ -57,7 +57,7 @@ const Encryption = () => {
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto sm:scale-[1.7]"
+          className="w-full h-auto"
           src="/encryption.webm/"
         />
       </div>
