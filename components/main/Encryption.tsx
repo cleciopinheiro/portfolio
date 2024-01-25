@@ -11,7 +11,7 @@ const Encryption = () => {
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
+          className="text-[40px] font-medium leading-none text-center text-gray-200"
         >
           Desempenho
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -44,7 +44,7 @@ const Encryption = () => {
           <h1 className="Welcome-text text-[12px]">Criptografia</h1>
         </div>
       </div>
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
+      <div className="absolute z-[20] bottom-[10px] px-[5px] sm:px-5">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
           Proteja seus dados com criptografia de ponta a ponta
         </div>
@@ -57,7 +57,7 @@ const Encryption = () => {
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-full h-auto sm:scale-[1.7]"
           src="/encryption.webm/"
         />
       </div>

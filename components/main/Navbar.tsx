@@ -7,7 +7,7 @@ import { FaBehance } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-20 md:px-10 sm:px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-20 md:px-10 sm:px-3">
       <div className="w-full h-full flex items-center justify-between m-auto">
         <a
           href="#about-me"
@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 sm:gap-2">
           <a href="https://github.com/cleciopinheiro" target="_blank"><TfiGithub className='text-white transition ease-in-out delay-150 hover:text-purple-500' size={24} /></a>
           <a href="https://www.linkedin.com/in/cleciopinheiro/" target="_blank"><IoLogoLinkedin className='text-white transition ease-in-out delay-150 hover:text-purple-500' size={24} /></a>
           <a href="https://www.behance.net/cleciopinheiro" target="_blank"><FaBehance className='text-white transition ease-in-out delay-150 hover:text-purple-500' size={28} /></a>

@@ -10,7 +10,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 sm:py-10">
         Meus Projetos
       </h1>
-      <div className="h-full w-full flex md:flex-wrap sm:flex-wrap sm:gap-14 gap-10 px-20 sm:px-10">
+      <div className="h-full w-full flex md:flex-wrap sm:flex-wrap sm:gap-14 gap-10 px-20 sm:px-5">
         <ProjectCard
           src="/NextWebsite.png"
           title="Modern Next.js Portfolio"
