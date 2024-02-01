@@ -14,7 +14,7 @@ const Navbar = () => {
           className="h-auto w-auto flex items-center"
         >
           <Image
-            src="/NavLogo.svg"
+            src="/logomarca.svg"
             alt="logo"
             width={120}
             height={120}
